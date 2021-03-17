@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
  */
 @RestController
 @RequestMapping("user")
-@Api(tags = "用户接口")
+@Api(tags = "用户")
 public class UserController {
 
     @PostMapping(value = "getUserById")
